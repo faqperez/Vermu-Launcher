@@ -72,5 +72,13 @@
     "september": "Septiembre",
     "october": "Octubre",
     "november": "Noviembre",
-    "december": "Diciembre"
+    "december": "Diciembre",
+    "auto_recherche_de_mise___jour": "Buscando actualizaciones...",
+    "auto_mise___jour_disponible": "¡Actualización disponible!",
+    "auto_mise___jour_disponible___br__div_class__download_u": "¡Actualización disponible!<br><div class=\"download-update\">Descargar</div>",
+    "auto_d_marrage_du_launcher": "Iniciando el launcher...",
+    "auto_text__br_arr_t_dans_5s": "${text}<br>Cierre en 5s",
+    "auto_erreur_lors_de_la_recherche_de_mise___jour_br_err": "Error al buscar actualización:<br>${err.message}",
+    "auto_t_l_chargement_en_cours": "Descargando...",
+    "auto_aucune_connexion_internet_d_tect_e_br_veuillez_r": "Sin conexión a Internet.<br>Intentá de nuevo más tarde."
 }

@@ -72,5 +72,12 @@
     "september": "September",
     "october": "October",
     "november": "November",
-    "december": "December"
+    "december": "December",
+    "auto_recherche_de_mise___jour": "Recherche de mise à jour...",
+    "auto_mise___jour_disponible": "Mise à jour disponible !",
+    "auto_mise___jour_disponible___br__div_class__download_u": "Mise à jour disponible !<br><div class=\"download-update\">Télécharger</div>",
+    "auto_d_marrage_du_launcher": "Démarrage du launcher",
+    "auto_text__br_arr_t_dans_5s": "${text}<br>Arrêt dans 5s",
+    "auto_text__br_arr_t_dans___i___s": "${text}<br>Arrêt dans ${i--}s",
+    "auto_erreur_lors_de_la_recherche_de_mise___jour___br___": "erreur lors de la recherche de mise à jour :<br>${err.message}"
 }
