@@ -141,7 +141,11 @@ class Home {
             memory: {
                 min: `${ram.ramMin * 1024}M`,
                 max: `${ram.ramMax * 1024}M`
-            }
+            },
+            customArgs: [
+                "--server", "play.vermucito.world",
+                "--port", "25565"
+            ]
         };
     }
 
