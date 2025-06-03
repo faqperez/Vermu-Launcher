@@ -56,7 +56,6 @@
     "invalid_credentials": "Correo electrónico o contraseña inválidos",
     "invalid_2fa_code": "Código 2FA inválido",
     "error_occurred": "Ocurrió un error",
-    "verify_email": "Por favor, verifica tu correo electrónico",
     "connection_error": "Ocurrió un error durante la conexión",
     "skin_of": "Skin de",
     "grade": "Rol",
