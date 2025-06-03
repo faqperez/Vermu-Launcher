@@ -53,14 +53,14 @@ class Splash {
     }
 
         async checkUpdate() {
-            this.setStatus(`Recherche de mise à jour...`);
+            this.setStatus(t('auto_recherche_de_mise___jour'));
     
             ipcRenderer.invoke('update-app').then().catch(err => {
-                return this.shutdown(`erreur lors de la recherche de mise à jour :<br>${err.message}`);
+                return this.shutdown(t('auto_erreur_lors_de_la_recherche_de_mise___jour___br___'));
             });
     
             ipcRenderer.on('updateAvailable', () => {
-                this.setStatus(`Mise à jour disponible !`);
+                this.setStatus(t('auto_mise___jour_disponible'));
                 if (os.platform() == 'win32') {
                     this.toggleProgress();
                     ipcRenderer.send('start-update');
@@ -107,7 +107,7 @@ class Splash {
             else if (os == 'linux') latest = this.getLatestReleaseForOS('linux', '.appimage', latestRelease);
     
     
-            this.setStatus(`Mise à jour disponible !<br><div class="download-update">Télécharger</div>`);
+            this.setStatus(t('auto_mise___jour_disponible___br__div_class__download_u'));
             document.querySelector(".download-update").addEventListener("click", () => {
                 shell.openExternal(latest.browser_download_url);
                 return this.shutdown("Téléchargement en cours...");
@@ -127,7 +127,7 @@ class Splash {
 
 
     startLauncher() {
-        this.setStatus(`Démarrage du launcher`);
+        this.setStatus(t('auto_d_marrage_du_launcher'));
         ipcRenderer.send('main-window-open');
         ipcRenderer.send('update-window-close');
     }

@@ -1,3 +1,21 @@
+<p align="center"><img src="../src/assets/images/icon.png" alt="icon-launcher"></p>
+
+<h1 align="center">VermucitoMC</h1>
+
+[<p align="center">]()
+![GitHub all releases](https://img.shields.io/github/downloads/faqperez/VermucitoMC/total?style=for-the-badge)
+![Discord](https://img.shields.io/discord/819729377650278420?style=for-the-badge)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/faqperez/VermucitoMC?style=for-the-badge)
+[<p align="center">]()
+![GitHub forks](https://img.shields.io/github/forks/faqperez/VermucitoMC?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/faqperez/VermucitoMC?style=for-the-badge)
+
+<p align="center">
+    <a href="https://discord.gg/HHrDNgsTN2">
+        <img src="https://invidget.switchblade.xyz/HHrDNgsTN2">
+    </a>
+</p>
+
 ![logo](https://centralcorp.github.io/assets/img/minecraft_title.png)
 
 ## 🌍 English Version

@@ -11,7 +11,7 @@ const fs = require('fs');
 const path = require('path');
 
 let translations = {};
-const systemLanguage = navigator.language.split('-')[0] || 'en';
+const systemLanguage = navigator.language.split('-')[0] || 'es';
 
 function loadTranslations() {
     const translationPath = path.join(__dirname, `./assets/translations/${systemLanguage}.json`);
