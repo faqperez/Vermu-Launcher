@@ -5,12 +5,6 @@ body {
     letter-spacing: 0px;
     -webkit-app-region: drag;
     user-select: none;
-    margin: 0;
-    padding: 0;
-    background: url('../images/update-background.png') no-repeat center center fixed;
-    background-size: cover;
-    font-family: sans-serif;
-    color: white;
 }
 
 img {
