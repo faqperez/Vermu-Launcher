@@ -1,7 +1,7 @@
 {
     "name": "vermucito",
     "preductname": "VermuWorld Launcher",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Vermucito World Launcher Minecraft",
     "main": "src/app.js",
     "author": "Vermucito, Riptiaz/Boulldogo/Vexato/Luuxis",
