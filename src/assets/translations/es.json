@@ -80,5 +80,11 @@
     "auto_erreur_lors_de_la_recherche_de_mise___jour_br_err": "Error al buscar actualización:<br>${err.message}",
     "auto_erreur_lors_de_la_recherche_de_mise___jour___br___": "Error al buscar actualizaciones.<br>",
     "auto_t_l_chargement_en_cours": "Descargando...",
-    "auto_aucune_connexion_internet_d_tect_e_br_veuillez_r": "Sin conexión a Internet.<br>Intentá de nuevo más tarde."
+    "auto_aucune_connexion_internet_d_tect_e_br_veuillez_r": "Sin conexión a Internet.<br>Intentá de nuevo más tarde.",
+    "mod_info_missing": "La información para el mod ${mod} no ha sido proporcionada por los administradores.",
+    "mod_info_missing_console": "Falta información para el mod \"${mod}\" en 'mods'.",
+    "mod_no_description": "Sin descripción para este mod",
+    "recommended": "Recomendado",
+    "file_must_be_png": "El archivo debe ser una imagen PNG.",
+    "image_must_be_64x64": "La imagen debe ser de 64x64 píxeles."
 }

@@ -80,5 +80,11 @@
     "auto_d_marrage_du_launcher": "Démarrage du launcher",
     "auto_text__br_arr_t_dans_5s": "${text}<br>Arrêt dans 5s",
     "auto_text__br_arr_t_dans___i___s": "${text}<br>Arrêt dans ${i--}s",
-    "auto_erreur_lors_de_la_recherche_de_mise___jour___br___": "erreur lors de la recherche de mise à jour :<br>${err.message}"
+    "auto_erreur_lors_de_la_recherche_de_mise___jour___br___": "erreur lors de la recherche de mise à jour :<br>${err.message}",
+    "mod_info_missing": "Les informations pour le mod ${mod} n'ont pas été fournies par les administrateurs.",
+    "mod_info_missing_console": "Les informations pour le mod \"${mod}\" sont manquantes dans 'mods'.",
+    "mod_no_description": "Aucune description pour ce mod",
+    "recommended": "Recommandé",
+    "file_must_be_png": "Le fichier doit être une image PNG.",
+    "image_must_be_64x64": "L'image doit faire 64x64 pixels."
 }

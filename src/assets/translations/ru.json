@@ -72,5 +72,11 @@
     "september": "Сентябрь",
     "october": "Октябрь",
     "november": "Ноябрь",
-    "december": "Декабрь"
+    "december": "Декабрь",
+    "mod_info_missing": "Информация о моде ${mod} не предоставлена администраторами.",
+    "mod_info_missing_console": "Информация о моде \"${mod}\" отсутствует в 'mods'.",
+    "mod_no_description": "Нет описания для этого мода",
+    "recommended": "Рекомендуется",
+    "file_must_be_png": "Файл должен быть изображением PNG.",
+    "image_must_be_64x64": "Изображение должно быть 64x64 пикселя."
 }

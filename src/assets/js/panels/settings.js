@@ -263,7 +263,7 @@ class Settings {
         const modElement = document.createElement('div');
         modElement.innerHTML = `
             <div class="mods-container-empty">
-              <h2>⚠️ Les mods optionnels n'ont pas encore étés téléchargés. Veuillez lancer une première fois le jeu pour pouvoir les configurer, puis redémarrez le launcher. ⚠️<h2>
+              <h2>${t('optional_mods_not_downloaded')}</h2>
             </div>`;
         modsListElement.appendChild(modElement);
     }
@@ -304,10 +304,10 @@ class Settings {
             const modElement = document.createElement('div');
             const modInfo = data.mods[mod];
             if (!modInfo) {
-                console.error(`Les informations pour le mod "${mod}" sont manquantes dans "mods".`);
+                console.error(t('mod_info_missing_console', { mod }));
                 modElement.innerHTML = `
                 <div class="mods-container">
-                  <h2>Les informations pour le mod ${mod} n'ont pas étés mises par les administrateurs.<h2>
+                  <h2>${t('mod_info_missing', { mod })}</h2>
                    <div class="switch">
                       <label class="switch-label">
                         <input type="checkbox" id="${mod}" name="mod" value="${mod}" ${modsConfig[mod] ? 'checked' : ''}>
@@ -320,7 +320,7 @@ class Settings {
             }
 
             const modName = modInfo.name;
-            const modDescription = modInfo.description || "Aucune description pour ce mod";
+            const modDescription = modInfo.description || t('mod_no_description');
             const modLink = modInfo.icon;
             const modRecommanded = modInfo.recommanded;
 
@@ -330,7 +330,7 @@ class Settings {
                   <div class="mods-container-text">
                     <div class="mods-container-name">                    
                         <h2>${modName}</h2>
-                        <div class="mods-recommanded" style="display: none;">Recommandé</div>
+                        <div class="mods-recommanded" style="display: none;">${t('recommended')}</div>
                     </div>
                     <div class="mod-description">${modDescription}</div>
                   </div>
@@ -379,14 +379,14 @@ class Settings {
             const file = input.files[0];
             if (!file) return;
             if (file.type !== 'image/png') {
-                alert('Le fichier doit être une image PNG.');
+                alert(t('file_must_be_png'));
                 return;
             }
             const img = new Image();
             img.src = URL.createObjectURL(file);
             img.onload = async () => {
                 if (img.width !== 64 || img.height !== 64) {
-                    alert('L\'image doit faire 64x64 pixels.');
+                    alert(t('image_must_be_64x64'));
                     return;
                 }
 
